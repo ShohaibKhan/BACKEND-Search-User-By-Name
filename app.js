@@ -3,7 +3,7 @@ const cors = require('cors');
 
 
 const app = express();
-const PORT=3000;
+
 let profile_url = "https://api.github.com/users/"
 
 
@@ -44,5 +44,5 @@ app.post('/getRepo',async(req,res)=>{
   
 })
 
-app.listen(PORT,()=>console.log(`Server started on port ${PORT}...`))
+app.listen(3306,()=>console.log(`Server started on port...`))
 
