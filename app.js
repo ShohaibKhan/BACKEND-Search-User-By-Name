@@ -1,18 +1,17 @@
 const express = require('express');
 const cors = require('cors');
-require('dotenv').config();
+
 
 const app = express();
 const PORT=3000;
 let profile_url = "https://api.github.com/users/"
-const token = process.env.TOKEN;
 
 
 const bodyparser = require("body-parser");
 
 
 const headers = {
-   "Authorization":`Token ${token}`
+   "Authorization":`Token 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`
 }
 
 
