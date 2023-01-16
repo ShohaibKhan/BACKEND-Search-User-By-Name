@@ -3,7 +3,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-const PORT=8080;
+const PORT=3000;
 let profile_url = "https://api.github.com/users/"
 const token = process.env.TOKEN;
 
