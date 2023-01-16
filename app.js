@@ -20,6 +20,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req,res)=>{
+   res.send("Hello Express is running Here")
    
 })
 app.post('/getProfile',async(req,res)=>{
