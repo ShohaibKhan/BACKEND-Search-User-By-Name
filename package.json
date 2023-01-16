@@ -5,5 +5,8 @@
     "express": "^4.18.2",
     "github-email-js": "^1.0.0",
     "github-profile": "^1.0.1"
+  },
+  "scripts": {
+    "start": "node app.js"
   }
 }
